@@ -13,10 +13,11 @@ export const projectsData = [
     title: "Portfolio Website",
     description: "A responsive developer portfolio built with React, TypeScript, and custom CSS Grid layouts.",
     image: "/assets/portfolio.webp",
-    techStack: ["React", "TypeScript", "CSS Grid"],
+    techStack: ["React", "TypeScript", "tailwindCSS"],
     liveLink: "#",
     githubLink: "https://github.com/yourusername/portfolio"
   },
+
   {
     id: 3,
     title: "Portfolio Website",
@@ -26,6 +27,7 @@ export const projectsData = [
     liveLink: "#",
     githubLink: "https://github.com/yourusername/portfolio"
   },
+  
   {
     id: 4,
     title: "Portfolio Website",
