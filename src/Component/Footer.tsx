@@ -1,8 +1,18 @@
+
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
+
+
 export default function Footer(){
     return(
-        <div>
-            <footer> <p>
-                FOOTER</p></footer>
-        </div>
+      
+            <footer> 
+                
+          <a href="" className='border '> <FaGithub className='text-2xl'/> </a>
+          <a href=""> <FaLinkedin className=''/> </a>
+                
+                
+                </footer>
+        
     )
 }
