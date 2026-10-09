@@ -10,7 +10,7 @@ export default function NavBar() {
     { name: "Contact", href: "#contact" },
   ];
 
-  const [activeLink, setActiveLink] = useState();
+  const [activeLink, setActiveLink] = useState("");
 
   return (
     <nav className="w-full border-2">
