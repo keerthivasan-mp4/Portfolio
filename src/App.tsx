@@ -1,6 +1,7 @@
 
 import './App.css'
 import Experience from './Component/Experience'
+import Footer from './Component/Footer'
 import Hero from './Component/Hero'
 import Navbar from './Component/NavBar'
 import Project from './Component/Project'
@@ -16,6 +17,7 @@ function App() {
     <Project/>
     <Skills/>
     <Experience/>
+    <Footer/>
      
     </>
   )
