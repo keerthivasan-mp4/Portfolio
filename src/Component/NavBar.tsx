@@ -13,7 +13,7 @@ export default function NavBar() {
   const [activeLink, setActiveLink] = useState("");
 
   return (
-    <nav className="w-full border-2">
+    <nav className="w-full border sticky top-0 z-10 backdrop-blur-md">
       <div className="mx-auto flex h-16 items-center justify-between px-8">
 
         {/* Name */}
