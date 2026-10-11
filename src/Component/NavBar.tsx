@@ -18,7 +18,7 @@ export default function NavBar() {
 
         {/* Name */}
         <div className="shrink-0 justify-items-start">
-          <span className="text-lg">
+          <span className="text-sm md:text-lg lg:text-3xl xl:text-4xl">
             Keerthi Vasan
           </span>
         </div>
@@ -32,7 +32,7 @@ export default function NavBar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm transition-colors transition-colors duration-300 hover:text-blue-500 md:text-sm lg:text-sm"
+                className="text-sm transition-colors duration-300 hover:text-blue-500 md:text-sm lg:text-2xl"
                 onClick={(e) => {
                   e.preventDefault();
                   setActiveLink(link.name); // Fixed: update state with the clicked link name
