@@ -12,9 +12,9 @@ function App() {
 
   return (
     <>
-    <Navbar/>
+    <Navbar />
     <Hero/>
-    <Project/>
+    <Project href="#projects"/>
     <Skills/>
     <Experience/>
     <Footer/>
