@@ -4,7 +4,7 @@ export default function Project(){
     return(
       // section is a overall container 
       <section
-      id="projects"
+      id="project"
       className="min-h-screen bg-black px-3 py-16 text-white md:px-10 mt-6"
     >
       {/* Heading */}
