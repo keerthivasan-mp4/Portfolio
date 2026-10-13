@@ -23,7 +23,7 @@ export default function Hero() {
 
         {/* Tagline */}
         <div id="tagline" className="lg:col-span-4 max-w-md lg:mb-4">
-          <p className="text-lg md:text-xl lg:text-xl text-black-400 font-light leading-[1] border border-red-600 ml-8">
+          <p className="text-lg md:text-xl lg:text-xl text-black-400 font-light leading-[1]  ml-16">
             I create responsive, user-centric web interfaces powered by clean, scalable code.
           </p>
         </div>
