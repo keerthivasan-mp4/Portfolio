@@ -27,7 +27,7 @@ export default function Skills(){
     ]
     return(
     
-        <main className="min-h-screen px-3 py-16  md:px-10 mt-6 border-2 border-black-600">
+        <main id="skills" className="min-h-screen px-3 py-16  md:px-10 mt-6 border-2 border-black-600">
             <h1 className="mb-10 text-sm font-serif md:text-6xl lg:text-7xl text-black-800">Skills</h1>
 
             <div className="space-y-6">

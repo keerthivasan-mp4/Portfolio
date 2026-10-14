@@ -6,17 +6,19 @@ import Hero from './Component/Hero'
 import Navbar from './Component/NavBar'
 import Project from './Component/Project'
 import Skills from './Component/Skills'
+import Education from './Component/Education'
 
 function App() {
 
 
   return (
     <>
-    <Navbar/>
+    <Navbar />
     <Hero/>
-    <Project/>
+    <Project />
     <Skills/>
     <Experience/>
+    <Education/>
     <Footer/>
      
     </>

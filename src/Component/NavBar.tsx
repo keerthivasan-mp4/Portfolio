@@ -36,7 +36,14 @@ export default function NavBar() {
                 onClick={(e) => {
                   e.preventDefault();
                   setActiveLink(link.name); // Fixed: update state with the clicked link name
+
+                  const targetElement = document.querySelector(link.href);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
                 }}
+
+                
               >
                 <span
                   className={`inline-block transition-all duration-300 ease-out origin-right ${
