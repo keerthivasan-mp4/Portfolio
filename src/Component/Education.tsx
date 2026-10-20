@@ -2,7 +2,7 @@ import { EducationInfo } from "../data/EducationInfo";
 
 export default function Education() {
     return (
-        <main id="education" className="min-h-screen px-3 py-16 md:px-10 mt-6">
+        <main id="education" className="min-h-70 px-3 py-16 md:px-10  border">
             {/* Main Section Title */}
             <h1 className="mb-10 text-sm font-serif md:text-6xl lg:text-7xl text-black">Education</h1>
 

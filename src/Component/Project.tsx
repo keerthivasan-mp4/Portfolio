@@ -5,13 +5,13 @@ export default function Project(){
       // section is a overall container 
       <section
       id="project"
-      className="min-h-screen bg-black px-3 py-16 text-white md:px-10 mt-6"
+      className="min-h-150 bg-white px-3 py-16 text-black md:px-10 mt-6 border "
     >
       {/* Heading */}
-      <div className="mx-auto max-w-7xl">
         <h2 className="mb-10 text-5xl font-serif md:text-6xl lg:text-7xl">
           My Work
         </h2>
+      <div className="mx-auto max-w-7xl ">
 
         {/* Project cards */}
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

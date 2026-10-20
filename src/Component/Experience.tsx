@@ -20,7 +20,7 @@ export default function Experience() {
     ];
 
     return (
-        <main id="experience" className="min-h-screen px-3 py-16 md:px-10 mt-6">
+        <main id="experience" className="min-h-70 px-3 py-16 md:px-10  border ">
             {/* Main Section Title */}
             <h1 className="mb-10 text-sm font-serif md:text-6xl lg:text-7xl text-black">Experience</h1>
 
