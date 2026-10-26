@@ -1,22 +1,4 @@
 
-// import { FaGithub, FaLinkedin } from 'react-icons/fa';
-
-
-
-// export default function Footer(){
-//     return(
-      
-//             <footer id='contact' className="lg:border border-amber-600 mt-2 "> 
-                
-//           <a href="" className='lg:'> <FaGithub className="text-2xl"/> </a>
-//           <a href=""> <FaLinkedin className=''/> </a>
-                
-                
-//                 </footer>
-        
-//     )
-// }
-
 
 import React, { useState } from 'react';
 
@@ -73,7 +55,7 @@ const Contact: React.FC = () => {
 
           {/* LinkedIn Row (Highlighted style like the image block) */}
           <a 
-            href="https://linkedin.com/in/yourusername" 
+            href="https://www.linkedin.com/in/keerthi-vasan-284653261/?isSelfProfile=true" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group flex items-center justify-between py-5 px-4 bg-neutral-900/80 border border-neutral-800 my-2 rounded-lg transition-all hover:border-neutral-700"
@@ -84,8 +66,11 @@ const Contact: React.FC = () => {
               </svg>
               <span className="font-medium text-white">LinkedIn</span>
             </div>
+
+
+
             <div className="flex items-center space-x-2 text-neutral-400 group-hover:text-white transition-colors">
-              <span className="text-sm md:text-base">/in/yourusername</span>
+              <span className="text-sm md:text-base">Keerthi Vasan.J</span>
               <svg className="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path strokeLinecap="round" d="M7 17L17 7M17 7H7M17 7v10" />
               </svg>
@@ -94,7 +79,7 @@ const Contact: React.FC = () => {
 
           {/* GitHub Row */}
           <a 
-            href="https://github.com/yourusername" 
+            href="https://github.com/keerthivasan-mp4" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group flex items-center justify-between py-5 px-2 transition-colors hover:bg-neutral-900/50"
@@ -106,7 +91,7 @@ const Contact: React.FC = () => {
               <span className="font-medium text-neutral-200">GitHub</span>
             </div>
             <div className="flex items-center space-x-2 text-neutral-400 group-hover:text-white transition-colors">
-              <span className="text-sm md:text-base">@yourusername</span>
+              <span className="text-sm md:text-base">Keerthivasan-mp4</span>
               <svg className="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M17 7H7M17 7v10" />
               </svg>
