@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <header className="relative w-full min-h-[90vh] flex flex-col justify-end px-6 md:px-12 pb-12 mt-2 overflow-hidden">
+    <header className="relative w-full min-h-[90vh] flex flex-col justify-end px-6 md:px-12 pb-12 mt-2 overflow-hidden " id="about">
       
       {/* Main Container */}
       <div className="grid grid-cols-1 lg:grid-cols-12 items-end w-full ">
