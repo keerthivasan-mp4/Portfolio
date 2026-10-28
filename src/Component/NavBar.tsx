@@ -1,4 +1,4 @@
-import { Sun } from "lucide-react";
+import ToggleButton from "./ThemeToggleButton"
 import { useState } from "react";
 
 
@@ -73,10 +73,7 @@ export default function NavBar() {
           })}
         </div>
 
-        {/* Theme Button */}
-        <button>
-          <Sun className="text-2xl" />
-        </button>
+       <ToggleButton/>
 
       </div>
     </nav>
