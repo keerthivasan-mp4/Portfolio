@@ -3,7 +3,7 @@ export const projectsData = [
     id: 1,
     title: "Game-Hub",
     description: "A video game discovery web app that helps users find games based on platform, genre, and ratings.",
-    image: "/assets/game-hub.webp", // or your image path
+    image: "src/assets/demo.png", // or your image path
     techStack: ["React", "TypeScript", "Zustand", "CSS"],
     liveLink: "https://game-hub-ashy-xi.vercel.app/",
     githubLink: "https://github.com/keerthivasan-mp4/GameHub"
