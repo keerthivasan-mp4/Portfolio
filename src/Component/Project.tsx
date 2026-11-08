@@ -5,7 +5,7 @@ export default function Project(){
       // section is a overall container 
       <section
       id="project"
-      className="min-h-150 bg-bg px-3 py-16 text-text md:px-10 mt-6 border "
+      className="min-h-150 bg-bg px-3 py-16 text-text md:px-10 mt-6  "
     >
       {/* Heading */}
         <h2 className="mb-10 text-5xl font-serif md:text-6xl lg:text-7xl">
@@ -52,7 +52,7 @@ export default function Project(){
                   {project.techStack.map((tech) => (
                     <span
                       key={tech}
-                      className="rounded-full border border-neutral-400 px-3 py-1 text-xs text-text">
+                      className="rounded-full border border-border px-3 py-1 text-xs text-text">
                       {tech}
                     </span>
                   ))}
@@ -65,7 +65,7 @@ export default function Project(){
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-full border border-white px-5 py-1.5 text-xs transition-colors duration-200 hover:bg-bg hover:text-"
+                    className="rounded-full border border-border px-5 py-1.5 text-xs transition-colors duration-200 hover:bg-bg hover:text-"
                   >
                     CODE
                   </a>
@@ -75,7 +75,7 @@ export default function Project(){
                     href={project.liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 rounded-full bg-bg px-4 py-1.5 text-xs text-black transition-transform duration-200 hover:scale-105"
+                    className="flex items-center gap-2 rounded-full bg-accent px-4 py-1.5 text-xs text-text transition-transform duration-200 border border-border hover:scale-105"
                   >
                     Live demo
                     <span className="text-sm">↗</span>

@@ -2,9 +2,9 @@ import { EducationInfo } from "../data/EducationInfo";
 
 export default function Education() {
     return (
-        <main id="education" className="min-h-70 px-3 py-16 md:px-10  border">
+        <main id="education" className="min-h-70 px-3 py-16 md:px-10 ">
             {/* Main Section Title */}
-            <h1 className="mb-10 text-sm font-serif md:text-6xl lg:text-7xl text-black">Education</h1>
+            <h1 className="mb-10 text-sm font-serif md:text-6xl lg:text-7xl text-text">Education</h1>
 
             <div className="space-y-8">
                 {EducationInfo.map((item) => (
@@ -14,10 +14,10 @@ export default function Education() {
                     >
                         {/* Left Side: Qualification & Institution Hierarchy */}
                         <div className="flex flex-col gap-1">
-                            <h3 className="text-lg md:text-xl font-semibold text-black lg:text-4xl ">
+                            <h3 className="text-lg md:text-xl font-semibold text-text lg:text-4xl ">
                                 {item.qualification}
                             </h3>
-                            <p className="text-sm md:text-lg text-gray-500 lg:text-2xl">
+                            <p className="text-sm md:text-lg text-text lg:text-2xl">
                                 {item.institution}
                             </p>
                         </div>

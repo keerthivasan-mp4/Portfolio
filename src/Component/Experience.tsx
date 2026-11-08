@@ -20,9 +20,9 @@ export default function Experience() {
     ];
 
     return (
-        <main id="experience" className="min-h-70 px-3 py-16 md:px-10  border ">
+        <main id="experience" className="min-h-70 px-3 py-16 md:px-10   ">
             {/* Main Section Title */}
-            <h1 className="mb-10 text-sm font-serif md:text-6xl lg:text-7xl text-black">Experience</h1>
+            <h1 className="mb-10 text-sm font-serif md:text-6xl lg:text-7xl text-text">Experience</h1>
 
             <div className="space-y-8">
                 {experiences.map((exp, index) => (
@@ -32,10 +32,10 @@ export default function Experience() {
                     >
                         {/* Left Side: Position & Organization Hierarchy */}
                         <div className="flex flex-col gap-1">
-                            <h3 className="text-lg md:text-2xl font-semibold text-black">
+                            <h3 className="text-lg md:text-2xl font-semibold text-text">
                                 {exp.position}
                             </h3>
-                            <p className="text-sm md:text-lg text-gray-500">
+                            <p className="text-sm md:text-lg text-text">
                                 {exp.organization}
                             </p>
                         </div>

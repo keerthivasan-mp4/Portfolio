@@ -13,7 +13,7 @@ export default function NavBar() {
   const [activeLink, setActiveLink] = useState("");
 
   return (
-    <nav className="w-full border sticky top-0 z-10 backdrop-blur-md">
+    <nav className="w-full  sticky top-0 z-10 backdrop-blur-md">
       <div className="mx-auto flex h-16 items-center justify-between px-8">
 
         {/* Name */}
@@ -32,7 +32,7 @@ export default function NavBar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm transition-colors duration-300 hover:text-blue-500 md:text-sm lg:text-2xl"
+                className="text-sm transition-colors duration-300 hover:text-accent md:text-sm lg:text-2xl"
                 onClick={(e) => {
                   e.preventDefault();
                   setActiveLink(link.name); // Fixed: update state with the clicked link name

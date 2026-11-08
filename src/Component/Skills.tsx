@@ -16,23 +16,23 @@ export default function Skills(){
         },
         {
             title: "Tools",
-            skill_name: ["Git", "GitLab", "Vercel", "Figma"]
+            skill_name: ["Git", "GitLab", "Vercel", "Figma","WordPress"]
         },
     ]
 
     return(
         <main id="skills" className="min-h-screen px-3 py-16 md:px-10  ">
             {/* Main title in solid black */}
-            <h1 className="mb-10 text-sm font-serif md:text-6xl lg:text-7xl text-black">Skills</h1>
+            <h1 className="mb-10 text-sm font-serif md:text-6xl lg:text-7xl text-text">Skills</h1>
 
             <div className="space-y-6">
                 {skills.map((category, index) => (
                     <div 
                         key={index} 
-                        className="grid grid-cols-1 md:grid-cols-[280px_1fr] items-center py-6 border-b border-neutral-200 gap-4"
+                        className="grid grid-cols-1 md:grid-cols-[280px_1fr] items-center py-6 border-b border-border gap-4"
                     >
                         {/* Title Column: Normal block layout so multi-line text stays neatly grouped with its colon */}
-                        <h3 className="text-sm md:text-lg lg:text-3xl font-semibold text-black">
+                        <h3 className="text-sm md:text-lg lg:text-3xl font-semibold text-text">
                             {category.title} :
                         </h3>
                         
@@ -41,7 +41,7 @@ export default function Skills(){
                             {category.skill_name.map((skill, skillIndex) => (
                                 <span 
                                     key={skillIndex}
-                                    className="text-xs md:text-lg lg:text-xl text-gray-500 cursor-default"
+                                    className="text-xs md:text-lg lg:text-xl text-text cursor-default"
                                 >
                                     {skill}
                                 </span>
