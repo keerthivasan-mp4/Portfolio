@@ -5,7 +5,7 @@ export default function Project(){
       // section is a overall container 
       <section
       id="project"
-      className="min-h-150 bg-white px-3 py-16 text-black md:px-10 mt-6 border "
+      className="min-h-150 bg-bg px-3 py-16 text-text md:px-10 mt-6 border "
     >
       {/* Heading */}
         <h2 className="mb-10 text-5xl font-serif md:text-6xl lg:text-7xl">
@@ -18,10 +18,10 @@ export default function Project(){
           {projectsData.map((project) => (
             <article
               key={project.id}
-              className="rounded-xl border border-neutral-500 bg-[#020202] p-2 transition-transform duration-300 hover:-translate-y-1 h-128 w-88" 
+              className="rounded-xl border border-neutral-500 bg-bg p-2 transition-transform duration-300 hover:-translate-y-1 h-128 w-88" 
             >
               {/* Project Image */}
-              <div className="h-40 w-full overflow-hidden rounded-xl bg-[#303030]">
+              <div className="h-40 w-full overflow-hidden rounded-xl bg-bg">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -37,13 +37,13 @@ export default function Project(){
                     {project.title}
                   </h3>
 
-                  {/* <span className="shrink-0 text-xs text-white">
+                  {/* <span className="shrink-0 text-xs text-text">
                     {project.date}
                   </span> */}
                 </div>
 
                 {/* Description */}
-                <p className="mb-4 max-w-md text-xl leading-5.5 text-white font-light">
+                <p className="mb-4 max-w-md text-xl leading-5.5 text-text font-light">
                   {project.description}
                 </p>
 
@@ -52,7 +52,7 @@ export default function Project(){
                   {project.techStack.map((tech) => (
                     <span
                       key={tech}
-                      className="rounded-full border border-neutral-400 px-3 py-1 text-xs text-white">
+                      className="rounded-full border border-neutral-400 px-3 py-1 text-xs text-text">
                       {tech}
                     </span>
                   ))}
@@ -65,7 +65,7 @@ export default function Project(){
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-full border border-white px-5 py-1.5 text-xs transition-colors duration-200 hover:bg-white hover:text-black"
+                    className="rounded-full border border-white px-5 py-1.5 text-xs transition-colors duration-200 hover:bg-bg hover:text-"
                   >
                     CODE
                   </a>
@@ -75,7 +75,7 @@ export default function Project(){
                     href={project.liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-xs text-black transition-transform duration-200 hover:scale-105"
+                    className="flex items-center gap-2 rounded-full bg-bg px-4 py-1.5 text-xs text-black transition-transform duration-200 hover:scale-105"
                   >
                     Live demo
                     <span className="text-sm">↗</span>

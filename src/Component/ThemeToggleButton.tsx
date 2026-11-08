@@ -1,16 +1,26 @@
-import { useTheme } from '../Context/ThemeContext'; // Import your custom hook
+import { useState } from "react";
 
-export default function ThemeToggleButton() {
-  const { theme, toggleTheme } = useTheme();
+export default function ThemeToggle() {
+  const [dark, setDark] = useState(() =>
+    document.documentElement.classList.contains("dark")
+  );
+
+  function toggle() {
+    const next = !dark;
+    document.documentElement.classList.toggle("dark", next);
+    try {
+      localStorage.setItem("theme", next ? "dark" : "light");
+    } catch {}
+    setDark(next);
+  }
 
   return (
-    <button 
-      onClick={toggleTheme} 
-      className="px-4 py-2 rounded-full border border-neutral-400 cursor-pointer"
+    <button
+      onClick={toggle}
+      aria-label={dark ? "Switch to light theme" : "Switch to dark theme"}
+      className="h-11 px-2 text-sm text-text-2 hover:text-text"
     >
-      {/* Dynamic text or icons based on the current theme */}
-      <p>{theme === 'dark' ? 'Light' : 'Dark'} </p>
-      
+      {dark ? "Light" : "Dark"}
     </button>
   );
 }
