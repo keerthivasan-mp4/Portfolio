@@ -22,7 +22,7 @@ export const projectsData = [
     id: 2,
     title: "Music Recommendation APP",
     description: "Built a Muisc recommender system, that recommends song based on content based filtering,",
-    image: "/assets/portfolio.webp",
+    image: "src/assets/musicRecommend.png",
     techStack: ["React", "TypeScript", "tailwindCSS"],
     Drive_Link: "#",
     githubLink: "https://github.com/keerthivasan-mp4/Music_recommender"
