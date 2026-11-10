@@ -221,6 +221,10 @@ const Contact: React.FC = () => {
         </div>
 
       </div>
+
+      <div className='text-center mt-8'>
+        <p>Inspired from   <a href="https://www.linkedin.com/in/todordimov/">Todor Dimov</a>  </p>
+      </div>
     </section>
   );
 };
