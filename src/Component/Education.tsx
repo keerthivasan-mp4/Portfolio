@@ -10,7 +10,7 @@ export default function Education() {
                 {EducationInfo.map((item) => (
                     <div 
                         key={item.id} 
-                        className="grid grid-cols-1 md:grid-cols-[1fr_auto] items-baseline py-6 border-b border-neutral-200 gap-4"
+                        className="grid grid-cols-1 md:grid-cols-[1fr_auto] items-baseline py-6 border-b border-border gap-4"
                     >
                         {/* Left Side: Qualification & Institution Hierarchy */}
                         <div className="flex flex-col gap-1">
@@ -23,7 +23,7 @@ export default function Education() {
                         </div>
                         
                         {/* Right Side: Year / Duration placed at the right end */}
-                        <div className="text-xs md:text-base font-medium text-gray-400 uppercase tracking-wider">
+                        <div className="text-xs md:text-base font-medium text-text uppercase tracking-wider">
                             {item.duration}
                         </div>
                     </div>
