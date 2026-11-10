@@ -1,4 +1,14 @@
 export const projectsData = [
+
+   {
+    id: 4,
+    title: "Portfolio Website",
+    description: "A responsive developer portfolio built with React, TypeScript, and custom CSS Grid layouts.",
+    image: "src/assets/portfolio_img.png",
+    techStack: ["React", "TypeScript", "CSS Grid"],
+    liveLink: "#",
+    githubLink: "https://github.com/yourusername/portfolio"
+  },
   {
     id: 1,
     title: "Game-Hub",
@@ -28,14 +38,6 @@ export const projectsData = [
     githubLink: "https://github.com/keerthivasan-mp4/weather_app"
   },
   
-  {
-    id: 4,
-    title: "Portfolio Website",
-    description: "A responsive developer portfolio built with React, TypeScript, and custom CSS Grid layouts.",
-    image: "/assets/portfolio.webp",
-    techStack: ["React", "TypeScript", "CSS Grid"],
-    liveLink: "#",
-    githubLink: "https://github.com/yourusername/portfolio"
-  }
+ 
   // You can add more projects here easily!
 ];
